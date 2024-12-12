@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{  
+    background-color: #000;
+}
+.container{
+    margin: 20px auto;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    width: 95%;
+    gap: 20px;
+}
+.col1{
+    background-color: #067ead;
+    background-image: url(../img/sawantwadi-palace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.col2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.row1{
+    background-color: #c91962;
+    background-image:url(../img/33505084813_6642f721f3_z.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+.row2{
+    position: relative;
+    display: flex;
+    gap: 20px;    
+    width: 100%;
+    height: 50%;
+    margin-top: 20PX;
+}
+.child-1{
+    background-color: #e4e71b;
+    background-image:url(../img/photo-91-171811-3.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.child-2{
+    background-color: #17f747;
+    background-image: url(../img/lake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.row3{
+    background-color: #c40d1c;
+    background-image: url(../img/Sindhudurg-Fort.avif);
+    height: 60%;
+    margin-top: 20px;
+}
+.col1, .row1, .child-1, .child-2,.row3 {
+    border-radius: 15px;
+}

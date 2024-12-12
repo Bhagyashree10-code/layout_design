@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #000;
+    margin: 100px 200px;
+    padding: 40px;
+}
+
+.col1,
+.col2 {
+    width: 50%;
+}
+
+.col1 img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col2-row {
+    display: flex;
+    gap: 16px;
+}
+
+.col2-row img {
+    border-radius: 10px;
+}
+
+.row-img1 img {
+    width: 15vw;
+    height: 150px;
+}
+
+.description {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+h1,
+p {
+    color: #000000;
+    padding: 10px;
+}
+
+.form {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-inline {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+}
+
+input {
+    padding: 10px 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    background-color: #cfcfcf;
+}
+
+.btn {
+    text-align: center;
+    background-color: #f0660b;
+    border: 1px solid #f0660b;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+    padding: 8px 15px;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.container-new {
+    background-color: #000;
+    margin: 100px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 33.33%;
+}
+
+.box1,
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box2 {
+    background-color: #ebdd20;
+}
+
+.box1-child1,
+.box1-child2 {
+    background-color: #9247bd;
+    height: 210px;
+}
+
+.box3-row2 {
+    background-color: #bd47b3;
+    height: 150px;
+}
+
+.box3-row1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.row1-chid1,
+.row1-chid2,
+.row3-chid1,
+.row3-chid2 {
+    background-color: #17adad;
+    height: 125px;
+    width: 50%;
+}
+
+.box3-row3 {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.description h1 {
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+
+.new-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #cfcfcf;
+    padding: 40px 50px;
+    border-radius: 20px;
+    justify-items: center;
+    margin-top: 20px;
+    width: 40%;
+    box-shadow: 10px 10px 15px 5px #a1a1a1;
+    margin: 50px auto;
+}
+
+.new-form input,
+textarea {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px 8px;
+    margin-top: -5px;
+}
+
+.form-btn {
+    background-color: #5f5f5f;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    justify-self: center;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 15px;
+    margin: 15px auto;
+    margin-bottom: -10px;
+    width: 200px;
+}
+
+.new-form label {
+    font-size: 18px;
+
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 40px;
+}
